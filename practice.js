@@ -1,9 +1,9 @@
 // Calculator 
 let calculator = (num1, num2) => {
     console.log(`Addition of ${num1} and ${num2} is ` + (num1 + num2));
-    console.log(`Subtraction of ${num1} by ${num2} is ` + (num1 - num2));
+    console.log(`Subtraction of ${num2} from ${num1} is ` + (num1 - num2));
     console.log(`Multiplication of ${num1} and ${num2} is ` + (num1 * num2));
-    console.log(`Division of ${num1} by ${num2} is ` + (num1 - num2));
+    console.log(`Division of ${num1} by ${num2} is ` + (num1 / num2));
 }
 
 // test calculator(num1, num2) function 
